@@ -29,6 +29,8 @@ div {
 }
 body {
     background-color: grey;
+    background-image: url(https://images.pond5.com/wave-particles-abstract-background-dynamic-footage-169798256_iconl.jpeg);
+    background-repeat: no-repeat;
 }
 .card {
     width: 30vw;
