@@ -53,6 +53,12 @@ img {
 #press {
     cursor: pointer;
 }
+.button {
+    box-shadow: 1px 1px 0 #BE1E2D
+}
+.button-counter {
+    margin-right: 39px;
+}
 
 footer {
     background: #BE1E2D;
