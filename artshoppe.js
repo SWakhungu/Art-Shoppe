@@ -9,8 +9,14 @@ let change = () =>{
     document.getElementById("press").style.backgroundColor = "blue";
 };
 
-
-document.getElementById("myForm").onsubmit = function() {myFunction()};
-function myFunction() {
-        alert("Your form was submitted successfully. Thank you!")
+function submit(event) {
+    log.textContent = `Form successfully submitted! Time stamp: ${event.timeStamp}`
+    event.preventDefault();
 }
+const form = document.getElementById("myForm");
+const log = document.getElementById("log")
+form.addEventListener("submit", logSubmit);
+// document.getElementById("myForm").onsubmit = function() {myFunction()};
+// function myFunction() {
+//         alert("Your form was submitted successfully. Thank you!")
+// }

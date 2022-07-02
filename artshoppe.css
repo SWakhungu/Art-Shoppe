@@ -1,5 +1,5 @@
 header {
-    background-image: url(https://static.wixstatic.com/media/37df9e_91c453cca1764c8c81bde04454076877~mv2.jpg/v1/fill/w_595,h_595,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/37df9e_91c453cca1764c8c81bde04454076877~mv2.jpg);
+    /* background-image: url(https://static.wixstatic.com/media/37df9e_91c453cca1764c8c81bde04454076877~mv2.jpg/v1/fill/w_595,h_595,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/37df9e_91c453cca1764c8c81bde04454076877~mv2.jpg); */
     background-position: center center;
     background-repeat: repeat-x;
     text-align: center;
@@ -8,7 +8,7 @@ header {
 }
 
 div {
-    border: 5px solid #BE1E2D;
+    border: 5px solid rgb(34, 8, 8);
     padding: 5px
 }
 .article {
@@ -29,8 +29,8 @@ div {
     width: 45%
 }
 body {
-    background-color: grey;
-    background-image: url(https://images.pond5.com/wave-particles-abstract-background-dynamic-footage-169798256_iconl.jpeg);
+    background-color: rgb(134, 75, 75);
+    background-image: url(https://images.unsplash.com/photo-1499088513455-78ed88b7a5b4?ixlib=rb-1.2.1);
     background-repeat: repeat;
 }
 .cards {
