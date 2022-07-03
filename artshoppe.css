@@ -6,7 +6,28 @@ header {
     text-shadow: 5px 5px 4px #BE1E2D;
     color: black;
 }
-
+h1 {
+    text-decoration: overline;
+}
+h3 {
+    text-decoration: overline;
+    width: 52%;
+}
+div.a {
+    text-align: justify;
+    width: 100%;
+    /* float: right; */
+}
+div.b {
+    text-align: center;
+    width: 100%;
+    float:centre
+}
+div.c {
+    text-align: right;
+    width: 100%;
+    /* float: right; */
+}
 div {
     border: 5px solid rgb(34, 8, 8);
     padding: 5px
@@ -34,15 +55,23 @@ body {
     background-repeat: repeat;
 }
 .cards {
-    margin: 0 auto
-    max-width: 30vw;
     display: grid;
-    align-items: left;
-    flex-direction: column;
     grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
     background-color: gray;
+    justify-content: center;
+    position: absolute;
+    
 }
+.card {
+    border: 2px solid #e7e7e7;
+    border-radius: 4px;
+    padding: .5rem;
+}
+/* .grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+} */
 .card:hover {
     box-shadow: 0px 0px 20px 2px #f0f0f0;
 }
@@ -54,7 +83,7 @@ img {
     cursor: pointer;
 }
 .button {
-    box-shadow: 1px 1px 0 #BE1E2D
+    box-shadow: 1px 1px 0 orangered
 }
 .button-counter {
     margin-right: 39px;

@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="artshoppe.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
         rel="stylesheet">
-        <script type="text/javascript" src="artshoppe.js">alert("Welcome to the Art Shoppe");</script>
+        <script type="text/javascript" src="artshoppe.js"></script>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
     </head>
@@ -13,17 +13,18 @@
         <header>
             <h1 onmouseover="mOver(this)" onmouseout="mOut(this)"> Welcome to The Art Shoppe!</h1>
         </header>
-        <div class="article left">
-            <h3>About</h3>
-            <p><b>Let us get acquainted. My name is <i>Steve Wakhungu</i>. The Art Shoppe as you may have figured out already, is an online art shop where I showcase some of my artworks. Why some and not all, you may ask? Well, as they say, the beautiful ones are not yet born. Artistically, the better art pieces are yet to be drawn. When they are, without a doubt they will grace this page too.</b></p>
+        <div class="a">
+        <h3>About</h3>
+        <p><b>Let us get acquainted. My name is <i>Steve Wakhungu</i>. The Art Shoppe as you may have figured out already, is an online art shop where I showcase some of my artworks. Why some and not all, you may ask? Well, as they say, the beautiful ones are not yet born. Artistically, the better art pieces are yet to be drawn. When they are, without a doubt they will grace this page too.</b></p>
         </div>
-        <div class="sidebar right">
-            <i><b>What's in it for you?</b></i>          
-            <b>Admit it; you love art and are not necessarily a connoisseur. I'd be happy to provide your space with affordable pieces. Go on. Order one.</b>
+        <div class="b">
+        <h3><i><b>What's in it for you?</b></i> </h3>
+        <b>Admit it; you love art and are not necessarily a connoisseur. I'd be happy to provide your space with affordable pieces. Go on. Order one.</b>
         </div>
-        <div class="callout right">
-            <h3>Did You Know...</h3>
-            <p><b>Painting the Mona Lisa’s lips took Leonardo da Vinci 12 years! Only the lips!</b></p>
+        <div class="c">
+        <h3>Did You Know...</h3>
+        <p><b>Painting the Mona Lisa’s lips took Leonardo da Vinci 12 years! Only the lips!</b></p>
+        </div>
         </div>
             <div class="cards">
                 <div class="card">
@@ -118,16 +119,18 @@
         </div>
         <form id="myForm">
             <h2>Contact Me</h2>
-            <input type="text" class="field" placeholder="Your Name">
-            <input type="email" class="field" placeholder="Your Email">
+            <input type="text" class="field" placeholder="Your Name" required>
+            <input type="email" class="field" placeholder="Your Email" required>
             <input type="text" class="field" placeholder="Your Phone">
             <textarea class="field" placeholder="Your message"></textarea>
             <input type="submit" class="field" value="Submit">
         </div>
-        <footer class="footer">
+        <div>
+            <footer class="footer">
             <i>The Art Shoppe</i>
             <br>
             <i>Copyright &#169 STEVE WAKHUNGU 2022</i>
-        </footer>
+            </footer>
+        </div>
     </body>
 </html>
