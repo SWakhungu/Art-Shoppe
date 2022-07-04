@@ -11,3 +11,9 @@ Navigate to the appropriate directory on your local repository using the `cd` co
 Always check the status of the working directory using `git status`, add files using `git add 'file name'`, and practice good version control by commiting frequently with `git commit -m "Message"`.
 ## Live link
 
+## Support
+Any suggestions on how to improve the project or information about it? You can reach me on my personal email: stwakhungu@gmail.com.
+## License
+[MIT] (https://choosealicense.com/licenses/mit/)
+## Author
+Steve Wakhungu
