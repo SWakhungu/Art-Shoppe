@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>The Art Shoppe</title>
+    <link rel="stylesheet" href="artshoppe.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+  </head>
+  <body>
+    <header>
+      <h1 onmouseover="mOver(this)" onmouseout="mOut(this)">
+        Welcome to The Art Shoppe!
+      </h1>
+    </header>
+    <div class="a">
+      <h3>About</h3>
+      <p>
+        <b
+          >Let us get acquainted. My name is <i>Steve Wakhungu</i>. The Art
+          Shoppe as you may have figured out already, is an online art shop
+          where I showcase some of my artworks. Why some and not all, you may
+          ask? Well, as they say, the beautiful ones are not yet born.
+          Artistically, the better art pieces are yet to be drawn. When they
+          are, without a doubt they will grace this page too.</b
+        >
+      </p>
+    </div>
+    <div class="b">
+      <h3>
+        <i><b>What's in it for you?</b></i>
+      </h3>
+      <b
+        >Admit it; you love art and are not necessarily a connoisseur. I'd be
+        happy to provide your space with affordable pieces. Go on. Order one.</b
+      >
+    </div>
+    <div class="c">
+      <h3>Did You Know...</h3>
+      <p>
+        <b
+          >Painting the Mona Lisa’s lips took Leonardo da Vinci 12 years! Only
+          the lips!</b
+        >
+      </p>
+    </div>
+    <div class="cards">
+      <div class="card">
+        <img
+          src="https://static.wixstatic.com/media/37df9e_a3fcc9bd3aaf4987a35bd4cbd7fe74d4~mv2.jpg/v1/fill/w_980,h_551,al_c,q_85,usm_0.66_1.00_0.01/37df9e_a3fcc9bd3aaf4987a35bd4cbd7fe74d4~mv2.webp"
+          alt="abstract painting"
+        />
+        <p>Lady In a Hat</p>
+        <p>A3 sized oil pastel painting oncartridge paper</p>
+        <p>$60</p>
+        <button id="press" onClick="change()">Click to Order</button>
+        <br />
+        <p>
+          <a href="#" title="I Love it" class="btn btn-counter" data-count="0"
+            ><span>&#x2764;</span> I Love it</a
+          >
+        </p>
+      </div>
+      <div class="card">
+        <img
+          src="https://static.wixstatic.com/media/37df9e_20631b095a3342e5a01448e20912f1ae~mv2.jpg/v1/fill/w_980,h_551,al_c,q_85,usm_0.66_1.00_0.01/37df9e_20631b095a3342e5a01448e20912f1ae~mv2.webp"
+          alt="watering hole confrontation painting"
+        />
+        <p>Mwenye Nguvu Mpishe</p>
+        <p>A3 sized charcoal colored pencil painting on cartridge paper</p>
+        <p>$58</p>
+        <button id="press1" onClick="change()">Click to Order</button>
+        <br />
+        <p>
+          <a href="#" title="I Love it" class="btn btn-counter" data-count="0"
+            ><span>&#x2764;</span> I Love it</a
+          >
+        </p>
+      </div>
+      <div class="card">
+        <img
+          src="https://static.wixstatic.com/media/37df9e_efaed1e327734b7692eecee9544b7728~mv2.jpg/v1/fill/w_980,h_551,al_c,q_85,usm_0.66_1.00_0.01/37df9e_efaed1e327734b7692eecee9544b7728~mv2.webp"
+          alt="portrait painting of Agnes Wairimu"
+        />
+        <p>La Femme Mukina</p>
+        <p>A3 sized charcoal colored pencil painting on oil paper pad</p>
+        <p>$65</p>
+        <button id="press2" onClick="change()">Click to Order</button>
+        <br />
+        <p>
+          <a href="#" title="I Love it" class="btn btn-counter" data-count="0"
+            ><span>&#x2764;</span> I Love it</a
+          >
+        </p>
+      </div>
+      <div class="card">
+        <img
+          src="https://static.wixstatic.com/media/37df9e_93626f0b102941fb8a90508e621da7fe~mv2.jpg/v1/fill/w_980,h_551,al_c,q_85,usm_0.66_1.00_0.01/37df9e_93626f0b102941fb8a90508e621da7fe~mv2.webp"
+          alt="vultures gathering at a meal"
+        />
+        <p>The Cleaners</p>
+        <p>A3 sized charcoal colored pencil painting on cartridge paper</p>
+        <p>$60</p>
+        <button id="press3" onClick="change()">Click to Order</button>
+        <br />
+        <p>
+          <a href="#" title="I Love it" class="btn btn-counter" data-count="0"
+            ><span>&#x2764;</span> I Love it</a
+          >
+        </p>
+      </div>
+      <div class="card">
+        <img
+          src="https://static.wixstatic.com/media/37df9e_26a1335bf8e24e88a91ada9914f634a5~mv2.jpg/v1/fill/w_980,h_551,al_c,q_85,usm_0.66_1.00_0.01/37df9e_26a1335bf8e24e88a91ada9914f634a5~mv2.webp"
+          alt="cat peeping under a broken door"
+        />
+        <p>Cautious</p>
+        <p>A3 sized graphite pencil artwork on cartridge paper</p>
+        <p>$55</p>
+        <button id="press4" onClick="change()">Click to Order</button>
+        <br />
+        <p>
+          <a href="#" title="I Love it" class="btn btn-counter" data-count="0"
+            ><span>&#x2764;</span> I Love it</a
+          >
+        </p>
+      </div>
+      <div class="card">
+        <img
+          src="https://static.wixstatic.com/media/37df9e_e9cb557363594a7fb13453ce67e62804~mv2.jpg/v1/fill/w_980,h_551,al_c,q_85,usm_0.66_1.00_0.01/37df9e_e9cb557363594a7fb13453ce67e62804~mv2.webp"
+          alt="Mombasa street scene painting"
+        />
+        <p>Pwani Life</p>
+        <p>A3 sized graphite pencil artwork on cartridge paper</p>
+        <p>$55</p>
+        <button id="press5" onClick="change()">Click to Order</button>
+        <br />
+        <p>
+          <a href="#" title="I Love it" class="btn btn-counter" data-count="0"
+            ><span>&#x2764;</span> I Love it</a
+          >
+        </p>
+      </div>
+      <div class="card">
+        <img
+          src="https://static.wixstatic.com/media/37df9e_c93218f7a68645fd918d5d261aa4fe26~mv2.jpg/v1/fill/w_980,h_551,al_c,q_85,usm_0.66_1.00_0.01/37df9e_c93218f7a68645fd918d5d261aa4fe26~mv2.webp"
+          alt="a boy holding an eagle"
+        />
+        <p>Arkalak and His Golden Eagle</p>
+        <p>A3 sized oil pastel painting on oil paper pad</p>
+        <p>$65</p>
+        <button id="press6" onClick="change()">Click to Order</button>
+        <br />
+        <p>
+          <a href="#" title="I Love it" class="btn btn-counter" data-count="0"
+            ><span>&#x2764;</span> I Love it</a
+          >
+        </p>
+      </div>
+      <div class="card">
+        <img
+          src="https://static.wixstatic.com/media/37df9e_b6d2198485984772abaeff7acc730209~mv2.jpg/v1/fill/w_980,h_551,al_c,q_85,usm_0.66_1.00_0.01/37df9e_b6d2198485984772abaeff7acc730209~mv2.webp"
+          alt="abstract painting of an ancient Pharaoh"
+        />
+        <p>Walk Like an Egyptian</p>
+        <p>A2 abstract pastel oil painting on cartridge paper</p>
+        <p>$55</p>
+        <button id="press7" onClick="change()">Click to Order</button>
+        <br />
+        <p>
+          <a href="#" title="I Love it" class="btn btn-counter" data-count="0"
+            ><span>&#x2764;</span> I Love it</a
+          >
+        </p>
+      </div>
+    </div>
+    <form id="myForm">
+      <h2>Contact Me</h2>
+      <input type="text" class="field" placeholder="Your Name" required />
+      <input type="email" id="email" class="field" placeholder="Your Email" required />
+      <input type="text" class="field" placeholder="Your Phone" />
+      <textarea class="field" placeholder="Your message"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+    <div>
+      <footer class="footer">
+        <i>The Art Shoppe</i>
+        <br />
+        <i>Copyright &#169; STEVE WAKHUNGU 2022</i>
+      </footer>
+    </div>
+    <script src="artshoppe.js"></script>
+  </body>
+</html>
